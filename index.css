@@ -44,7 +44,8 @@ section {
 
 
 #container{
-    min-height: 800px;
+    min-height: 250px;
+    padding: 50px;
     position: relative;
   }
   #clock{
@@ -53,6 +54,20 @@ section {
     background-color: #333333;
     color: #fff;
     min-width: 380px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #date {
+    text-align: center;
+    font-size:72px;
+    background-color: #333333;
+    color: #fff;
+    min-width: 200px;
     padding: 10px;
     border-radius: 10px;
     margin: 0 auto;
