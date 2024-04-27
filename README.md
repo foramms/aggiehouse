@@ -5,3 +5,11 @@ How can we create an app/program that will send out text reminders to volunteers
 - Volunteer shifts may be forgotten due to busy schedules
 - Currently uses a Google Sheet calendar to display scheduled shifts
 - Lacks a reminder system for volunteer shifts
+
+
+Steps:
+- clock API
+- create a spreadsheet with sample data
+- import spreadsheet into our code
+- if a time matches the clock time, read who's name it's attached to and send them a notification
+    - text message (phone notification)
