@@ -1,1 +1,45 @@
+@import url('http://127.0.0.1:5500/Data-Magic-Building-ML-Tools/index.html#');
+
+section {
+    padding: 50px 0;
+    text-align: center;
+    border: 2px solid #0A889B; 
+    border-radius: 10px; 
+    margin: 20px; 
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.section-title {
+    color: #333; /* Dark gray text */
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+section {
+    position: relative; 
+    padding: 20px; 
+    text-align: center;
+    border: 2px solid #0A889B; 
+    border-radius: 10px; 
+    margin: 20px auto; 
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 1000px;
+}
+
+#modules .grid-container {
+    display: grid;
+    grid-gap: 10px; 
+    justify-content: center; 
+}
+
+#modules .grid-item img {
+    max-width: 50px; 
+    max-height: 50px;
+    width: auto; 
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+}
+
 

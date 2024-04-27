@@ -1,1 +1,1 @@
-
+// JavaScript for typewriter effect

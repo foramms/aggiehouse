@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aggie House</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Montserrat, sans-serif;
+            background-color: #ACE1E9; 
+        }
+
+        header {
+            background-color: #0A889B; 
+            padding: 10px;
+            color: #fff;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navigation a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .section-title {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        /* Adjustments for smaller screens */
+        @media (max-width: 768px) {
+            header {
+                padding: 10px;
+            }
+
+            .navigation a {
+                margin: 0 5px;
+            }
+
+            .section-title {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+        }
+        #home {
+            padding-top: 75px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2 class="Main_page">Aggie House</h2>
+        <nav class="navigation">
+            <a href="#home">Home</a>
+            <a href="#info">Info</a>
+            <a href="#modules">Modules</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+    <div class="section-content">
+        <h1 class="typewriter"></h1>
+        <p> Aggie House</p>
+    </div>
+</section>
+
+    <section id="info">
+        <div class="section-title">What is Aggie House</div>
+        <p>Please Add details here</p>
+    </section>
+
+    <section id="modules">
+        <div class="section-title">Modules</div>
+    </section>
+    <section id="contact">
+        <div class="section-title">Contact Us</div>
+        <p>You can provide contact information or a contact form in this section.</p>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
