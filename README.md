@@ -13,3 +13,8 @@ Steps:
 - import spreadsheet into our code
 - if a time matches the clock time, read who's name it's attached to and send them a notification
     - text message (phone notification)
+
+
+What we have done:
+- display clock and date on local host
+- cleaned spreadsheet data
