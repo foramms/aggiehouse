@@ -42,6 +42,7 @@ function displayTime(){
           
            // Process or display the filtered data here
            console.log(filteredData);
+           checkTimeAndDate();
        };
       
        reader.readAsText(file);
@@ -50,8 +51,36 @@ function displayTime(){
    }
 }
 
+function filterAndProcessCSV(csvData) {
+  // Implement your logic to filter and process the CSV data here
+  // For example, you can split the CSV data into rows and process each row
+  // This function should return the filtered data or null if no data is found
+  return csvData; // Placeholder, replace with your actual filtering and processing logic
+}
+
 const fs = require('fs');
 
+function checkTimeAndDate() {
+  var d = new Date();
+  var hour = d.getHours(); // 0-23
+  var min = d.getMinutes(); // 0-59
+  // Add your condition here to check if the current time matches your criteria
+  // For example, if you want to check if it's 1 hour before 7pm
+  if (hour === 18 && min === 0) {
+      // Call function to alert volunteers
+      alertVolunteers();
+  }
+}
+
+function alertVolunteers() {
+  // Get person's name and find corresponding email address
+  var personName = "John Doe"; // Example name, replace with actual name
+  var emailAddress = "john@example.com"; // Example email, replace with actual email
+
+  // Send email (code to send email would go here, this is just a placeholder)
+  // For demonstration purposes, we'll just show an alert
+  alert("Email sent to " + personName + " at " + emailAddress);
+}
 
 // Function to read and log CSV data
 function readAndLogCSV() {
