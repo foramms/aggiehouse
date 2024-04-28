@@ -1,3 +1,27 @@
+const fs = require('fs');
+
+// Function to read and log CSV data
+function readAndLogCSV() {
+    try {
+        // Read the CSV file synchronously
+        const content = fs.readFileSync('/Users/Meigan/Downloads/volunteer.csv', 'utf8');
+
+        // Split the content into rows and then into arrays of values
+        const rows = content.split('\n').map(row => row.split(','));
+
+        // Log each row to the console
+        for (let i = 0; i < rows.length; i++) {
+            console.log(rows[i]);
+        }
+
+    } catch (error) {
+        console.error('Error reading the file:', error);
+    }
+}
+
+// Call the function to read and log CSV data
+readAndLogCSV();
+
 // JavaScript for typewriter effect
 function displayTime(){
     var d = new Date();
