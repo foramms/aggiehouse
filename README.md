@@ -17,3 +17,8 @@ Steps:
 What we have done:
 - display clock and date on local host
 - cleaned spreadsheet data
+
+What to do next:
+When current date is same is work date and time is 1 hour before 7pm, call function to alert volunteers
+Take person’s name and find corresponding email address
+Send email alert
