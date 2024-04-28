@@ -1,8 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="utf-8">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js">
+    </script>
+
+
+  <body>
+    <div id="container">
+      <p id="clock"></p>
+    </div>
+    <div id="container">
+        <p id="date"></p>
+    </div>
+  </body>
+</html>
+     
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aggie House</title>
@@ -76,12 +93,11 @@
         </nav>
     </header>
 
-    <section id="home">
-    <div class="section-content">
-        <h1 class="typewriter"></h1>
-        <p> Aggie House</p>
-    </div>
-</section>
+    <section id="upload">
+        <div class="section-title">Upload Spreadsheet</div>
+        <input type="file" id="fileInput" accept=".xlsx,.xls,.csv">
+        <button onclick="uploadFile()">Upload</button>
+    </section>
 
     <section id="info">
         <div class="section-title">What is Aggie House</div>
